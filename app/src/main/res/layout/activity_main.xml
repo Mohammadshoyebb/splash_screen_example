@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#0BF4F4"
+    tools:context=".MainActivity">
+
+    <TextClock
+        android:layout_width="297dp"
+        android:layout_height="137dp"
+        android:backgroundTint="#7AEAEA"
+        android:gravity="center"
+        android:text="Mohd shoyeb shaikh"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="123dp"
+        android:layout_height="70sp"
+        android:layout_gravity="bottom"
+
+        android:text="submit"/>
+
+
+</LinearLayout>
